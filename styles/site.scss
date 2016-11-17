@@ -1,0 +1,6 @@
+// Use @import to include .css or .scss files
+// @import 'layout';
+
+body::before {
+  content: 'css: styles/site.scss'
+}

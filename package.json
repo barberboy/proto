@@ -1,0 +1,22 @@
+{
+  "name": "proto",
+  "version": "1.0.0",
+  "description": "Rapid prototyping with Pug, Sass, and CommonJS/Browserify, and LiveReload",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Benjamin Barber",
+  "license": "ISC",
+  "dependencies": {
+    "browserify-middleware": "^7.1.0",
+    "express": "^4.14.0",
+    "express-compile-sass": "^3.0.4",
+    "livereload": "^0.6.0",
+    "serve-static": "^1.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
