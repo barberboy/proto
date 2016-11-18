@@ -11,6 +11,8 @@ npm install
 npm start
 ```
 
+Then open <http://localhost:1844>.
+
 ## Editing
 
 proto watches for changes in .html, .pug, .css, .scss, .js, .jpg, .png, .svg, .gif files and reloads the page on save.
