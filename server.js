@@ -67,11 +67,11 @@ document.body.innerHTML = '';
 document.body.appendChild(error);
     `)
   }
-  next()
+  next(err)
 }
 
 function errorHandler (err, req, res, next) {
-  res.render('error', {
+  res.render('_error', {
     error: err
   })
 }
